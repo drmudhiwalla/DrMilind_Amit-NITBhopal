@@ -6,7 +6,7 @@ export const doctor = {
   currentRole: "Consultant, Organ Transplant and HPB Surgery",
   hospital: "Ruban Memorial Hospital",
   location: "Patna, Bihar",
-  phoneDisplay: "+91 8120650418",
+  phoneDisplay: "+91 81206 50418",
   phone: "+918120650418",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918120650418",
   email: "amit2003dh@gmail.com",
@@ -19,10 +19,10 @@ export const doctor = {
     online: { morning: "9:00 AM–11:00 AM", evening: "5:00 PM–7:00 PM", verificationRequired: true }
   },
   about: [
-    "Dr. Milind Mandwar is a Consultant in Organ Transplant and HPB Surgery at Ruban Memorial Hospital, Patna. His clinical work includes liver, kidney and pancreas transplantation, hepatopancreatobiliary surgery and dialysis vascular-access procedures.",
-    "He completed his MBBS at Gauhati Medical College and Hospital and his MS in General Surgery at the All India Institute of Medical Sciences, New Delhi. He subsequently completed three years of senior residency in renal and pancreas transplantation and vascular-access surgery at PGIMER, Chandigarh.",
-    "Dr. Milind undertook further abdominal-organ transplant training at IKDRC-ITS, Ahmedabad, followed by a fellowship in liver transplant and HPB surgery at BLK-Max Super Speciality Hospital, New Delhi. Before joining Ruban Memorial Hospital, he worked as an Associate Consultant in Liver Transplant at Fortis Hospital, Mohali.",
-    "His experience includes living-donor and deceased-donor transplantation, ABO-incompatible and swap transplantation, paediatric transplantation, complex liver resections, pancreatic surgery, Whipple procedures, bile-duct surgery and dialysis vascular-access procedures. His approach emphasises careful evaluation, clear communication and coordinated care for transplant patients, donors and their families."
+    "I am a Consultant in Organ Transplant and HPB Surgery at Ruban Memorial Hospital, Patna. My clinical work focuses on liver, kidney and pancreas transplantation, hepatopancreatobiliary surgery and dialysis vascular-access procedures.",
+    "I completed my MBBS at Gauhati Medical College and Hospital and my MS in General Surgery at the All India Institute of Medical Sciences, New Delhi. I then completed three years of senior residency in renal and pancreas transplantation and vascular-access surgery at PGIMER, Chandigarh.",
+    "I pursued further training in abdominal-organ transplantation at IKDRC-ITS, Ahmedabad, followed by a fellowship in liver transplant and HPB surgery at BLK-Max Super Speciality Hospital, New Delhi. Before joining Ruban Memorial Hospital, I worked as an Associate Consultant in Liver Transplant at Fortis Hospital, Mohali.",
+    "My experience includes living-donor and deceased-donor transplantation, ABO-incompatible and swap transplantation, paediatric transplantation, complex liver resections, pancreatic surgery, Whipple procedures, bile-duct surgery and dialysis vascular-access procedures. I believe every patient, donor and family deserves careful evaluation, clear communication and well-coordinated care throughout their treatment journey."
   ],
   stats: [
     { value: "400+", label: "Liver transplants" }, { value: "750+", label: "Kidney transplants" },
@@ -66,7 +66,38 @@ export const doctor = {
     ["Is submitting the appointment form a confirmed booking?","No. An appointment is confirmed only after the doctor’s team responds and confirms availability."],
     ["What should I do in an emergency?","Go to the nearest emergency department or call the appropriate emergency service. Do not use website forms for emergencies."]
   ],
-  articles: ["Understanding liver transplantation","Living-donor liver transplant: what families should know","Preparing for kidney transplantation","Caring for an AV fistula","When does a liver tumour require surgery?","Life after an organ transplant"]
+  articles: [
+    {
+      title: "Understanding liver transplantation",
+      summary: "Liver transplantation replaces a severely diseased or damaged liver with a healthy donor liver. It may be considered when other treatments cannot adequately manage advanced liver disease or selected liver tumours.",
+      points: ["Evaluation involves medical tests, imaging and review by a multidisciplinary transplant team.", "A donor liver may come from a deceased donor or, in suitable cases, a living donor.", "Recovery requires regular follow-up and medicines that help prevent organ rejection."],
+    },
+    {
+      title: "Living-donor liver transplant: what families should know",
+      summary: "In living-donor liver transplantation, a carefully selected healthy adult donates part of the liver. The transplanted portion and the donor's remaining liver can grow after surgery.",
+      points: ["The donor and recipient undergo separate, detailed assessments.", "Donation must be voluntary and informed, with donor safety treated as a central priority.", "Both operations are major procedures with risks, recovery needs and long-term follow-up."],
+    },
+    {
+      title: "Preparing for kidney transplantation",
+      summary: "Kidney-transplant preparation helps the team understand whether transplantation is appropriate and whether surgery and long-term treatment can be undertaken safely.",
+      points: ["Assessment may include blood tests, heart and lung evaluation, imaging and infection screening.", "Bring an updated medicine list, previous records and details of dialysis treatment to appointments.", "Patients and families should plan for medicines, follow-up tests, transport and support after surgery."],
+    },
+    {
+      title: "Caring for an AV fistula",
+      summary: "An arteriovenous fistula provides vascular access for haemodialysis. Protecting it and noticing changes early can help maintain safe and reliable dialysis access.",
+      points: ["Check daily for the usual vibration, often called a thrill, as instructed by your dialysis team.", "Avoid blood-pressure measurements, blood sampling, tight clothing or heavy pressure on the fistula arm.", "Contact your dialysis team promptly for bleeding, swelling, redness, warmth, worsening pain or loss of the usual vibration."],
+    },
+    {
+      title: "When does a liver tumour require surgery?",
+      summary: "Surgery may be considered for selected liver tumours, but the decision depends on the tumour and the health and function of the remaining liver.",
+      points: ["Assessment commonly considers tumour type, size, number, location and involvement of nearby blood vessels.", "The team also evaluates liver function, other illnesses and whether enough healthy liver can safely remain.", "Possible approaches may include liver resection or transplantation; other treatments may be more appropriate in some cases."],
+    },
+    {
+      title: "Life after an organ transplant",
+      summary: "Transplantation begins a long-term partnership with the transplant team. Medicines, monitoring and healthy daily routines all help protect the transplanted organ.",
+      points: ["Take anti-rejection medicines exactly as prescribed and never change them without medical advice.", "Attend scheduled clinic visits and laboratory tests, even when feeling well.", "Seek timely advice about fever, possible infection, medicine problems or any new or worsening symptoms."],
+    },
+  ]
 } as const;
 
 // All consultation locations and timings require final confirmation before launch.
