@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";import { doctor } from "@/data/doctor";
+export default function sitemap():MetadataRoute.Sitemap{return ['','/about','/specialities','/appointments','/contact','/gallery','/privacy','/terms','/disclaimer'].map(path=>({url:`${doctor.siteUrl}${path}`,lastModified:new Date(),changeFrequency:path===''?'weekly':'monthly',priority:path===''?1:.7}))}

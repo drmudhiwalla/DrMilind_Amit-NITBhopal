@@ -1,0 +1,2 @@
+import PageHero from "./PageHero";
+export default function LegalPage({title,children}:{title:string;children:React.ReactNode}){return <><PageHero eyebrow="Patient information" title={title} description="Clear information about using this website and contacting the clinic team."/><section className="section"><article className="container legalprose">{children}</article></section><style>{`.legalprose{max-width:850px}.legalprose :global(h2){margin-top:2rem;font-size:1.6rem}.legalprose :global(p),.legalprose :global(li){color:#466169}`}</style></>}
