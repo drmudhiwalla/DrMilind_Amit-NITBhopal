@@ -8,7 +8,7 @@ export const doctor = {
   location: "Patna, Bihar",
   phoneDisplay: "+91 86384 82340",
   phone: "+918638482340",
-  whatsapp: "918638482340",
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918638482340",
   linkedin: "https://www.linkedin.com/in/milind-mandwar-415a65166",
   instagram: "https://www.instagram.com/milindmandwar",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://drmilindmandwar.com",
