@@ -12,7 +12,7 @@ export const doctor = {
   email: "amit2003dh@gmail.com",
   linkedin: "https://www.linkedin.com/in/milind-mandwar-415a65166",
   instagram: "https://www.instagram.com/milindmandwar",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://drmilindmandwar.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://dr-milind-amit-nit-bhopal.vercel.app",
   consultationNotice: "Consultations in Patna and online—call or WhatsApp to confirm availability.",
   timings: {
     hospital: { label: "Hospital consultation timings available on call.", verificationRequired: true },
