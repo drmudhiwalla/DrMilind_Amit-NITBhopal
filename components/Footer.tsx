@@ -12,7 +12,7 @@ export default function Footer() {
         <a href={`tel:${doctor.phone}`}><Phone size={17} aria-hidden="true" /><span>{doctor.phoneDisplay}</span></a>
         <a href={`mailto:${doctor.email}`}><Mail size={17} aria-hidden="true" /><span>{doctor.email}</span></a>
         <a href={`https://wa.me/${doctor.whatsapp}`} target="_blank" rel="noopener noreferrer"><MessageCircle size={17} aria-hidden="true" /><span>WhatsApp</span></a>
-        <p><MapPin size={17} aria-hidden="true" /><span>{doctor.location}</span></p>
+        <a href={doctor.locations[1].mapsUrl} target="_blank" rel="noopener noreferrer" aria-label="Open Dr. Milind Mandwar's Patna clinic in Google Maps"><MapPin size={17} aria-hidden="true" /><span>Patna clinic</span></a>
         <a href={doctor.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin size={17} aria-hidden="true" /><span>LinkedIn</span></a>
         <a href={doctor.instagram} target="_blank" rel="noopener noreferrer"><Instagram size={17} aria-hidden="true" /><span>Instagram</span></a>
       </div>

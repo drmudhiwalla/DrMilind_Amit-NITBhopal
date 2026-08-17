@@ -53,7 +53,7 @@ export const doctor = {
   achievements: [{text:"Associated with Punjab’s first deceased-donor liver transplant and ABO-incompatible liver transplant.",verificationRequired:true}],
   locations: [
     {name:"Ruban Memorial Hospital",address:"Patna, Bihar",note:"Please call or WhatsApp the doctor’s team to confirm the current OPD schedule.",mapsUrl:"https://www.google.com/maps/search/?api=1&query=Ruban+Memorial+Hospital+Patna",confirmed:true},
-    {name:"Dr. Milind Mandwar",address:"19, Boring Patliputra Road, Near New Patliputra Colony, Patna, Bihar 800013",note:"Additional Patna consultation location—please call to confirm availability.",mapsUrl:"https://www.google.com/maps/search/?api=1&query=19+Boring+Patliputra+Road+Patna+800013",confirmed:false}
+    {name:"Dr. Milind Mandwar",address:"19, Boring Patliputra Road, Near New Patliputra Colony, Patna, Bihar 800013",note:"Additional Patna consultation location—please call to confirm availability.",mapsUrl:"https://www.google.com/maps/place/Dr+Milind+Mandwar,+Liver+and+Kidney+Transplants,+Hepatobiliary+and+Dialysis+access+Surgeon/@25.6281022,85.1074987,16z/data=!3m1!4b1!4m6!3m5!1s0x390fef0034966c07:0x4c3f092f7b0fcd0f!8m2!3d25.6281022!4d85.1100736!16s%2Fg%2F11vy1jrvhk?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",confirmed:false}
   ],
   faqs: [
     ["What conditions does Dr. Milind Mandwar treat?","He evaluates transplant recipients and donors and treats conditions requiring liver, kidney or pancreas transplantation, HPB surgery, and dialysis vascular access."],
